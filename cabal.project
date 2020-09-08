@@ -1,0 +1,4 @@
+packages: ./toy-package-target
+          ./toy-plugin
+
+with-compiler: ghc-8.10.2

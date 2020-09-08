@@ -1,0 +1,8 @@
+extra-package-dbs: []
+packages:
+- ./toy-plugin/
+- ./toy-package-a/
+- ./toy-package-target/
+extra-deps: []
+resolver: lts-15.4
+compiler: ghc-8.10.1

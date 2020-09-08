@@ -1,0 +1,8 @@
+dist-newstyle
+tags
+.ghc.environment*
+**/.liquid
+.vim
+**/*.hi
+**/*.o
+.stack-work

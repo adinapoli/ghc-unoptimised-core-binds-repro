@@ -1,0 +1,18 @@
+cabal-version: 1.12
+
+name:           toy-package-target
+version:        0.1.0.0
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2019 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+
+executable toy-package-target-exe
+  build-depends: toy-plugin
+               , base
+  main-is: Main.hs
+  default-language: Haskell2010
+
+  ghc-options: -O2 -fforce-recomp -fplugin=ToyPlugin
