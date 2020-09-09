@@ -3,7 +3,7 @@
 
 module Main where
 
-data Foo = Foo { unFoo :: {-# UNPACK #-} !Int } deriving Show
+data Foo = Foo { unFoo :: {-# UNPACK #-} !Int }
 
 main :: IO ()
-main = print (Foo 10)
+main = print $ unFoo (Foo 10)
